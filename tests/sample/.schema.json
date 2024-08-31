@@ -1,0 +1,138 @@
+{
+  "tables": {
+    "orders": {
+      "category": "master",
+      "description": "order list",
+      "columns": [
+        {
+          "name": "row_id",
+          "type": "string"
+        },
+        {
+          "name": "order_priority",
+          "type": "string"
+        },
+        {
+          "name": "discount",
+          "type": "number"
+        },
+        {
+          "name": "unit_price",
+          "type": "number"
+        },
+        {
+          "name": "shipping_cost",
+          "type": "number"
+        },
+        {
+          "name": "customer_id",
+          "type": "string"
+        },
+        {
+          "name": "customer_name",
+          "type": "string"
+        },
+        {
+          "name": "ship_mode",
+          "type": "string"
+        },
+        {
+          "name": "customer_segment",
+          "type": "string"
+        },
+        {
+          "name": "product_category",
+          "type": "string"
+        },
+        {
+          "name": "product_sub_category",
+          "type": "string"
+        },
+        {
+          "name": "product_container",
+          "type": "string"
+        },
+        {
+          "name": "product_name",
+          "type": "string"
+        },
+        {
+          "name": "product_base_margin",
+          "type": "number"
+        },
+        {
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "name": "region",
+          "type": "string"
+        },
+        {
+          "name": "state_or_province",
+          "type": "string"
+        },
+        {
+          "name": "city",
+          "type": "string"
+        },
+        {
+          "name": "postal_code",
+          "type": "string"
+        },
+        {
+          "name": "order_date",
+          "type": "date"
+        },
+        {
+          "name": "ship_date",
+          "type": "date"
+        },
+        {
+          "name": "profit",
+          "type": "number"
+        },
+        {
+          "name": "quantity_ordered_new",
+          "type": "integer"
+        },
+        {
+          "name": "sales",
+          "type": "number"
+        },
+        {
+          "name": "order_id",
+          "type": "string"
+        }
+      ]
+    },
+    "returns": {
+      "category": "result",
+      "description": "order returns",
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "type": "string"
+        }
+      ]
+    },
+    "users": {
+      "category": "master",
+      "description": "user list",
+      "columns": [
+        {
+          "name": "region",
+          "type": "string"
+        },
+        {
+          "name": "manager",
+          "type": "string"
+        }
+      ]
+    }
+  }
+}
